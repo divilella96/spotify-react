@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+Aqui está o arquivo `README.md` atualizado com as tags adicionadas:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Spotify Clone
 
-## Available Scripts
+Este é um clone simples do Spotify desenvolvido com React. Ele utiliza uma API JSON para fornecer dados de músicas e artistas.
 
-In the project directory, you can run:
+## Instalação
 
-### `npm start`
+Siga as instruções abaixo para instalar e executar o projeto localmente.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Certifique-se de ter o Node.js e o npm instalados na sua máquina.
 
-### `npm test`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Passos de instalação
 
-### `npm run build`
+1. Clone o repositório para o seu ambiente local:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone https://github.com/seu-usuario/spotify-clone.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue até o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd spotify-clone
+    ```
 
-### `npm run eject`
+3. Instale as dependências do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Executando o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Após a conclusão da instalação, você pode executar o projeto com o seguinte comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+O projeto será iniciado em http://localhost:3000 no seu navegador.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API JSON Local
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto utiliza uma API JSON local para fornecer dados de músicas e artistas. Para configurar e iniciar a API, siga estes passos:
 
-### Code Splitting
+1. Navegue até o diretório `json-server`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    cd json-server
+    ```
 
-### Analyzing the Bundle Size
+2. Instale as dependências da API:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    npm install
+    ```
 
-### Making a Progressive Web App
+3. Inicie a API JSON:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    npm start
+    ```
 
-### Advanced Configuration
+A API estará acessível em http://localhost:3030.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Certifique-se de que o projeto principal esteja em execução enquanto utiliza a API local.
 
-### Deployment
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Sinta-se à vontade para contribuir para o desenvolvimento deste projeto. Basta seguir os passos de instalação e criar um fork do repositório.
 
-### `npm run build` fails to minify
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+## Tags
+
+#ImersãoFrontEnd #Alura
+```
+
+Agora, o README inclui as tags #ImersãoFrontEnd e #Alura. Certifique-se de personalizar as URLs dos repositórios Git e qualquer outra informação conforme necessário para o seu projeto específico.
