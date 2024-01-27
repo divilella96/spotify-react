@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 import Artist from "./artist/artist";
+import PropTypes from 'prop-types';  // Importe PropTypes
 
 import image1 from "../../assets/playlist/1.jpeg";
 import image2 from "../../assets/playlist/2.png";
@@ -161,6 +162,11 @@ const Main = ({ searchInput }) => {
       </div>
     </div>
   );
+};
+
+Main.propTypes = {
+  searchInput: PropTypes.string.isRequired,
+  // Adicione outras propriedades conforme necessário
 };
 
 export default Main;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./artist.css";
+import PropTypes from 'prop-types';  // Importe PropTypes
 
 const Artist = ({ searchInput }) => {
   const [artists, setArtists] = useState([]);
@@ -18,7 +19,7 @@ const Artist = ({ searchInput }) => {
     <div id="result-artist">
       <div className="grid-container">
         {artists.map((artist) => (
-          <div className="artist-card">
+          <div key={artist.name} className="artist-card">
             <div className="card-img">
               <img id="artist-img" className="artist-img" src={artist.urlImg} />
               <div className="play">
@@ -38,6 +39,16 @@ const Artist = ({ searchInput }) => {
       </div>
     </div>
   );
+};
+
+Artist.propTypes = {
+  searchInput: PropTypes.string.isRequired,
+  artists: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      // Adicione outras propriedades do artista conforme necessário
+    })
+  ).isRequired,
 };
 
 export default Artist;

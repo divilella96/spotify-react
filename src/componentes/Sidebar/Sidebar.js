@@ -1,3 +1,4 @@
+import React from 'react'; // Adicione a importação do React
 import './Sidebar.css';
 import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
