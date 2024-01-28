@@ -6,7 +6,7 @@ const Artist = ({ searchInput }) => {
   const [artists, setArtists] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:3030/artists?name_like=${searchInput}`;
+    const url = `https://api-artists-git-main-divilella96.vercel.app/artists?name_like=${searchInput}`;
 
     fetch(url)
       .then((response) => response.json())
